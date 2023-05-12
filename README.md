@@ -1,5 +1,8 @@
 # Horiseon Project
 
+## Deployed Website
+https://florabernardo62.github.io/horiseon/
+
 ## About Project
 I worked on this project with the objective of improve the accessibility by adding alternativernative texts, and it optimized for search engines by adding a more effective title and making changes on the html index and css to organize the code in the most pratical way and other chances specified in the code's comments, showing what was the alteration and the reason. 
 
