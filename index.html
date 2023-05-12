@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <title> Horiseon Marketing </title>
+    <!-- originally: <title> website </title> ; -->
+    <!-- reasons for change: improve the chance of this webpage be found when searched the business name or the key word "marketing"; -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- originally: no css reset page -->
+    <!-- reasons for change:a css reset sheet is important to assure the browser default won't change the css style   -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- orginally: meta, hyperlinks, title order-->
+    <!-- reason for change: many professional websites use the standard meta, title, hyperlinks-->
+</head>
+
+<body>
+    <!--originally: using <div> in all elements -->
+    <!-- reason for change: <div is a non semantic element, using semantic elements we specify what that part does to the code. -->
+    <header>
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+        <!--originally: <div> -->
+        <!-- reason for change: <nav> is the appropriate semantic elements to navigate through links; changes on line 27, 35, and 39 on the CSS document were also alterated.   -->
+        
+    </header>
+        <figure class="hero" alt="A mixed woman, a mixed man, and two white men sit around a grey table. Four glasses of water and a few unreadable pages are displayed in the table. All of the people are looking at those papers. There's a white board and a wood wall in the background. "></figure>
+        <!--originally: no alt text -->
+        <!-- reason for change: alt text is important to make the website assessible for speech readers. -->
+        
+    <article>
+
+        <section id="search-engine-optimization" class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Displayed on a wood table: a computer, a cup with colored pencils, a cup of coffe, magnifier, a cople of pens. All these itens around a notebook with the word 'SEO' on a clond in the center and the words 'content', 'headings', 'mobile compatility', 'link building', and 'blacklink.'  " />
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+            <!--originally: no id-->
+            <!-- reason for change: adding the id element increses the funcionability of the website, and makes it coherent with the following images, they all contained the id    -->
+        </section>
+
+        <section id="online-reputation-management" class="online-reputation-management">
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Displayed on a wood table a laptop, a cellphone or tablet and a black cup. On the laptop screen with the title 'reputation', a bar graphic showing increases on the left, a couple of pizza grapphics on the right, the data for these grapphics aren't clear. The picture displays the hands of a white man holding a phone while analizes the computer screen."  />
+            <h2>Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+            </p>
+        </section>
+        
+        <section id="social-media-marketing" class="social-media-marketing">
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <h2>Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+            </p>
+        </section>
+
+
+
+    </article>           
+       
+    <aside class="benefits">
+        <section class="benefit-lead">
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png"  alt="half of a gear on the top, a triangle with a south arrow in the middle, and a coin symbol on the botton." />
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </section>
+        <section class="benefit-brand">
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png"
+            alt="a suit with an idea light bulb as the head  />
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </section>
+        <section class="benefit-cost" alt="a gear with coins around">
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png"></img>
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </section>
+    </aside>
+    <footer>
+    <!--originaly <div class="footer"-->
+    <!-- reasons for change (1): html has the function footer, so I changed to make it specific semantic-->
+    <!-- reasons for change (2): as I used exclusive semantic elements on html, I changed css' classes to element selector in order to eliminate redundances as <footer class"footer">-->
+    <!-- CSS lines 11, 18, 23, 27, 39, 72 (now 53), 191 (now 59), 198 (now 66) were changed (eliminating the period, tranforming a class in an element selector.)-->
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
+    
+</body>
+
+</html>
